@@ -46,7 +46,7 @@ gem 'simple_form'
 gem "rails-i18n"
 gem 'devise'
 gem 'will_paginate'
-
+gem 'font-awesome-rails'
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
