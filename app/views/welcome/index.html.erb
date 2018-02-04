@@ -1,0 +1,466 @@
+<header id="HOME" style="background-position: 50% -125px;">
+      <div class="section_overlay">
+          <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Sandy Wang</a>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#HOME">Home</a></li>
+                    <li><a href="#Portfolio">作品集</a></li>
+                    <li><a href="#Project">專案</a></li>
+                  <li><a href="#WorkExperience">工作經驗</a></li>
+                    <li><a href="#LearnExperience">學習經歷</a></li>
+                  <li><a href="#ABOUT">關於我</a></li>
+                    <li><a href="#Note">技術筆記</a></li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container -->
+          </nav>
+
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12 text-center">
+                      <div class="home_text">
+                            <div class="myphoto">
+                              <%= image_tag("me.jpg")%>
+                            </div>
+                          <h2>王思涵 (Sandy Wang)</h2>
+                          <p>
+                                <strong>Ruby on Rails developer
+                                <br>
+                                用自己雙手創造出讓人滿意的東西，把一個創意變成現實的感覺。這對我來說是最有成就感的也是喜歡做的事情。
+                                <br>
+                                寫程式是一種專業，能讓我喜歡的事情更有價值。
+                            </p>
+                            <%= image_tag("shape.png") %>
+                      </div>
+                  </div>
+                    <div class="col-md-12 text-center">
+                        <div class="social">
+                            <p>
+                                電話: 0958010216
+                                <br>
+                                信箱: thehappyend95@gmail.com
+                                <br>
+                                方便聯絡時間：星期一至星期五的13:00-19:00
+                            </p>
+                            <ul class="icon_list">
+                                <li><a href="https://github.com/sihhanwang"><i class="fa fa-github"></i></a></li>
+                                <li><a href="https://codepen.io/sihhan/"><i class="fa fa-codepen"></i></a></li>
+                                <li><a href="https://medium.com/@sihahan/"><i class="fa fa-medium"></i></a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+              </div>
+          </div>
+      </div>
+  </section>
+</header>
+
+<!---作品集 -->
+<section class="Portfolio" id="Portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="work_title">
+                    <h4>Portfolio</h4>
+                    <h2>作品集</h2>
+                    <%= image_tag("shape.png") %>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 no_padding">
+                <div class="single_image">
+                    <%= image_tag("w4.jpg") %>
+                    <div class="image_overlay">
+                        <a href="https://ws2.sinaimg.cn/large/006tNc79gy1fo4sf55j9jj30pk0fp77x.jpg">
+                            <div class="po-center">
+                                <h2>CSS</h2>
+                                <h4>登入頁面美化，網站已被刪除，只剩當初留的圖片</h4>
+                                <button type="button" class="btn btn-primary po-btn">VIEW</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 no_padding">
+                <div class="single_image">
+                    <%= image_tag("w5.gif") %>
+                    <div class="image_overlay">
+                        <a href="https://github.com/sihhanwang/girlsf2e/tree/master/0118/jq_homwork">
+
+                            <div class="po-center">
+                                <h2>JQuery </h2>
+                                <h4>手刻圖片lightbox</h4>
+                                <button type="button" class="btn btn-primary po-btn">code</button>
+                            </div>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 no_padding">
+                <div class="single_image last_padding">
+                    <%= image_tag("w6.gif") %>
+                    <div class="image_overlay">
+                        <a href="https://codepen.io/sihhan/pen/VQawGo">
+                            <div class="po-center">
+                                <h2>CSS動畫</h2>
+                                <h4>純CSS的loading animation </h4>
+                                <button type="button" class="btn btn-primary po-btn">VIEW</button>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row pad_top">
+            <div class="col-md-4 no_padding">
+                <div class="single_image">
+                    <%= image_tag("w1.jpg") %>
+                    <div class="image_overlay">
+                        <a href="https://ws4.sinaimg.cn/large/006tNc79gy1fo4svrwa91j30pk16wq8t.jpg">
+                            <div class="po-center">
+                                <h2>CSS+Bootstrap</h2>
+                                <h4>形象網站首頁，網站已被刪除，只剩當初留的圖片</h4>
+                                <button type="button" class="btn btn-primary po-btn">VIEW</button>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 no_padding">
+                <div class="single_image">
+                    <%= image_tag("w2.png") %>
+                    <div class="image_overlay">
+                        <a href="https://github.com/sihhanwang/girlsf2e/tree/master/%E5%AC%89%E9%87%8E%E8%8C%B6%E6%99%82">
+                            <div class="po-center">
+                                <h2>CSS切版</h2>
+                                <h4>模擬嬉野茶時官網版面</h4>
+                                <button type="button" class="btn btn-primary po-btn">code</button>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 no_padding">
+                <div class="single_image">
+                    <%= image_tag("w3.png") %>
+                    <div class="image_overlay">
+                        <a href="https://github.com/sihhanwang/girlsf2e/tree/master/0121/bootstrap_work">
+                            <div class="po-center">
+                                <h2>CSS+BOOTSTRAP</h2>
+                                <h4>使用bootstrap做出RWD版型</h4>
+                                <button type="button" class="btn btn-primary po-btn">code</button>
+
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="Portfolio2" id="Project">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6  text-center">
+                <div class="left">
+                    <h2>Velotoday</h2>
+                    <p>部落格式官網，發布活動相關訊息及文章。</p>
+                    <hr>
+                    <p>* 前端設計</p>
+                    <ol>
+                        <li>CSS & HTML</li>
+                        <li>Bootstrap RWD 應用</li>
+                    </ol>
+                    <p>* Rails實作的功能</p>
+                    <ol>
+                        <li>文章tag功能</li>
+                        <li>Ransack 搜尋功能</li>
+                        <li>後台(個人中心/管理者後台)</li>
+                        <li>Heroku部署 ＆ AWS S3儲存照片</li>
+                        <li>will_paginate bootstrap分頁功能</li><li>上傳圖片('carrierwave' /‘mini_magick)</li>
+                        <li>文章編輯器 bootstrap-wysihtml5-rails</li>
+                    </ol>
+
+                    <a href="https://hidden-stream-49110.herokuapp.com/">
+                        <button type="button" class="btn btn-primary cs-btn">瀏覽網站</button>
+                    </a>
+                    <a href="https://github.com/sihhanwang/cowork">
+                        <button type="button" class="btn btn-primary cs-btn">作品代碼</button>
+                    </a>
+
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-1">
+                <div class="right">
+                  <%= image_tag(("velotoday.png"),:class=>"img-responsive") %>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="Portfolio2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6  text-center">
+                <div class="left">
+                    <h2>BosGalRun</h2>
+                    <p>活動課程購物網站。</p>
+                    <hr>
+                    <p>* 協作開發</p>
+                    <ol>
+                        <li>主要負責Rails後端功能</li>
+                        <li>共同協作使用Git flow 流程</li>
+
+                    </ol>
+                    <p>* Rails實作的功能</p>
+                    <ol>
+                        <li>收藏功能</li>
+                        <li>購物功能</li>
+                        <li>課程分類功能</li>
+                        <li>ASSM 訂單管理</li>
+                        <li>後台(個人中心/管理者後台)</li>
+                        <li>Heroku部署 ＆ AWS S3儲存照片</li>
+                    </ol>
+
+                    <a href="http://bosgalrun.herokuapp.com/">
+                        <button type="button" class="btn btn-primary cs-btn">瀏覽網站</button>
+                    </a>
+                    <a href="https://github.com/sihhanwang/JD-BSG">
+                        <button type="button" class="btn btn-primary cs-btn">作品代碼</button>
+                    </a>
+
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-1">
+                <div class="right">
+                    <%= image_tag(("bgs.jpg"), :class => "img-responsive") %>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 文章 -->
+<section class="WorkExperience" id="Note">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="work_title">
+                    <h2> 技術筆記 </h2>
+                   <%= image_tag("shape.png") %>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <a href="https://ithelp.ithome.com.tw/users/20107708/articles">
+                <div class="single_experience">
+                    <%= image_tag("ruby.png") %>
+                    <h2>Rails筆記</h2>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-4 text-center">
+                <a href="https://medium.com/@sihahan">
+                <div class="single_experience">
+                    <%= image_tag("f2e.jpg") %>
+                    <h2>前端筆記</h2>
+                </div>
+                </a>
+            </div>
+            <div class="col-md-4 text-center">
+                <a href="http://sihhan-blog.logdown.com/archives">
+                <div class="single_experience">
+                    <%= image_tag("error.jpeg") %>
+                    <h2>問題紀錄</h2>
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 關於我 -->
+<section class="about_us_area" id="ABOUT">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="about_title">
+                    <h4>ABOUT ME</h4>
+                    <h2>關於我</h2>
+                    <%= image_tag("shape.png") %>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <ul class="listProgram">
+                    <li>Rails
+                        <div class="bar">
+                        <div class="value p60"></div>
+                        </div>
+                    </li>
+                    <li>Html/Css
+                        <div class="bar">
+                        <div class="value p50"></div>
+                        </div>
+                    </li>
+                    <li>Js/JQuery
+                        <div class="bar">
+                        <div class="value p30"></div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-md-4  wow fadeInRight animated">
+                <p class="about_us_p">
+                    從事服務業5年，不想要重複勞動的工作，不想要被機器取代，於是開始接觸以及了解軟體工程師。<br>
+                    我喜歡把一個創意變成現實的感覺，也一直在積極探尋如何高效率地做事情。而寫程式能夠滿足這兩項需求。並且我意識到在智能時代中，寫程式將是一門不可或缺的技能。<br>
+                    一開始在網路上google自學，從rails101開始練習，並成功做出影評網站，也和朋友一起合作做出網站。可是出社會後，時間會相對寶貴，凡事都要講求效率，對於沒有基礎的我來說，即使網路上資源很多，但太多太雜，花太多時間在摸索理解，同時也遇到瓶頸卡關。
+                </p>
+            </div>
+            <div class="col-md-4  wow fadeInRight animated">
+                <p class="about_us_p">
+                    一開始都是模仿抄別人的代碼，做出功能。但是卻不了解原理，所以無法客製化出自己的需求。因緣際會下接觸到RAILS GIRLS WEEKLY的活動，並決定報名參加五倍紅寶石的課程，加強自己對於ruby on rails的理解與熟悉。<br>
+                    也參加了女性網頁前端開發專班，學習前端的技術，並且透過這兩次的課程，獨立做出完整的網站。而過去工作經歷中的溝通能力、統籌能力、高強度下工作的能力也肯定會對我接下來的工程師工作生涯大有益處。
+
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 學習經驗 -->
+<section class="WorkExperience" id="LearnExperience">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="work_title">
+                    <h4>Learn  Experience</h4>
+                    <h2>學習歷程</h2>
+                    <%= image_tag("shape.png") %>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="single_experience">
+                    <i class="icon-pencil"></i>
+                    <h2>2018/01 — 2018/02</h2>
+                    <h2>五倍紅寶石 ｜ 女性網頁前端開發專班 </h2>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="single_experience">
+                    <i class="icon-gears"></i>
+                    <h2>2017/10 — 2017/12</h2>
+                    <h2>五倍紅寶石 ｜ 全方位衝刺班 </h2>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="single_experience">
+                    <i class="icon-camera"></i>
+                    <h2>2017</h2>
+                    <h2>Rails Girls Weekly｜ 從零開始的網頁設計  </h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 工作經驗 -->
+<section class="WorkExperience" id="WorkExperience">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="work_title">
+                    <h4>Work  Experience</h4>
+                    <h2>工作經驗</h2>
+                    <%= image_tag("shape.png") %>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="single_experience">
+                    <i class="icon-pencil"></i>
+                    <h2>2017/02- 2018/02</h2>
+                    <h2>sinbi 審美｜ 業務會計助理  </h2>
+                    <ul>
+                        <li>負責營業端相關報表製作及帳務處理。</li>
+                        <li>sinbi審美臉書小編，協助行銷企劃活動。</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="single_experience">
+                    <i class="icon-gears"></i>
+                    <h2>2014/06-2017/02</h2>
+                    <h2>君悅飯店｜ Bar Leader   </h2>
+                    <ul>
+                        <li>部門培訓員，負責規劃教育訓練及教導餐飲酒水相關知識。</li>
+                        <li>吧台酒水帳務管理及飲料促銷活動規劃。</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 text-center">
+                <div class="single_experience">
+                    <i class="icon-camera"></i>
+                    <h2>2012/02-2014/06</h2>
+                    <h2>維多麗亞酒店｜ 餐飲儲備幹部  </h2>
+                    <ul>
+                        <li>參與義大利米其林餐廳開幕籌備計畫，並學習餐酒搭配。</li>
+                        <li>顧客服務、內外場聯繫、點餐、供餐及服務品質維護。</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<footer>
+<div class="container">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="copyright_text ">
+
+                    <p>
+                    姓名：王思涵
+                    <br>
+                    電話: 0958010216
+                    <br>
+                    信箱: thehappyend95@gmail.com
+                    <br>
+                    方便聯絡時間：星期一至星期五的13:00-19:00
+                    <br>
+                    Copyright &copy; Sandy 2018
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>

@@ -1,0 +1,32 @@
+<div class="col-md-12">
+  <div class="group">
+    <%= link_to("新增電影", new_group_path, class: "btn btn-primary pull-right") %>
+  </div>
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <td>#</td>
+        <td>電影</td>
+        <td>劇情大綱</td>
+        <td>影評者</td>
+      </tr>
+    </thead>
+    <tbody>
+      <% @groups.each do |group| %>
+        <tr>
+          <td>#</td>
+          <td><%= link_to(group.title, group_path(group)) %></td>
+          <td><%= simple_format(group.description) %></td>
+          <td> <%= group.user.email %> </td>
+          <td>
+
+              <%= link_to("修改", edit_group_path(group), class: "btn btn-sm btn-default")%>
+              <%= link_to("刪除", group_path(group),    class: "btn btn-sm btn-default",
+                          method: :delete, data: { confirm: "Are you sure?" } )%>
+
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
